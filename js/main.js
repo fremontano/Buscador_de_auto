@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 marca.addEventListener("change", (e) => {
     datoBusqueda.marca = e.target.value;
     console.log(datoBusqueda);
+    filtrarAuto();//filtrar autos
 });
 
 anios.addEventListener("change", (e) => {
@@ -94,3 +95,18 @@ function llenarSelect() {
     }
 }
 
+
+// funcion filtrar en base a la busqueda 
+function filtrarAuto() {
+    const resultado = autos.filter(filtrarMarca);
+    console.log(resultado)
+
+}
+
+function filtrarMarca(auto) {
+    const { marca } = datoBusqueda;
+    if (marca) {
+        return auto.marca === marca;
+    }
+    return auto;
+}
