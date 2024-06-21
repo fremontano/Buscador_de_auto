@@ -208,4 +208,4 @@ const autos = [
     }
 ];
 
-console.log(autos);
+
