@@ -87,7 +87,8 @@ const autos = [
         precio: 55000,
         puertas: 2,
         color: 'Negro',
-        transmision: 'manual'
+        transmision:
+            'manual'
     },
     {
         marca: 'Dodge',
@@ -169,43 +170,5 @@ const autos = [
         puertas: 4,
         color: 'Azul',
         transmision: 'automatico'
-    },
-    {
-        marca: 'Toyota',
-        modelo: 'Corolla',
-        year: 2020,
-        precio: 32000,
-        puertas: 4,
-        color: 'Gris',
-        transmision: 'automatico'
-    },
-    {
-        marca: 'Honda',
-        modelo: 'Civic',
-        year: 2019,
-        precio: 28000,
-        puertas: 4,
-        color: 'Plata',
-        transmision: 'automatico'
-    },
-    {
-        marca: 'Nissan',
-        modelo: 'Altima',
-        year: 2018,
-        precio: 25000,
-        puertas: 4,
-        color: 'Negro',
-        transmision: 'automatico'
-    },
-    {
-        marca: 'Hyundai',
-        modelo: 'Elantra',
-        year: 2017,
-        precio: 20000,
-        puertas: 4,
-        color: 'Blanco',
-        transmision: 'automatico'
     }
 ];
-
-
